@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+  }
+
+  .home {
+    border-radius: 10px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 70px;
+    height: 25%;
+    background-color: #161B22;
+    color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  .socialmidia {
+    border-radius: 10px;
+    position: fixed;
+    left: 0;
+    top: 20%;
+    margin-top: 3%;
+    width: 70px;
+    height: 80%;
+    background-color: #161B22;
+    color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+ 
+
+  #right-menu {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 300px; /* Aumentando a largura do menu direito */
+    height: 100%;
+    background-color: #161B22;
+    color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  #center-div {
+    border-radius: 10px;
+    margin-left: 150px; /* Adicionando um espaço à esquerda da div central */
+    margin-right: 320px; /* Adicionando um espaço à direita da div central, levando em conta a largura do menu direito */
+    width: calc(100% - 500px); /* Ajustando a largura da div central para ocupar o restante da largura da tela */
+    height: 100vh;
+    background-color: #ddd;
+    overflow-y: auto;
+    
+  }
+
+  .icons{
+    width: 30px;
+    color: white;
+  }
+
+  .aboutMe {
+    background-color: #212529;
+    padding: 20px;
+    color: #fff;
+    /*text-align: center;*/
+    display: flex;
+    
+}
+
+.aboutMe img{
+    clip-path: circle(50% at 50% 50%);
+    
+    
+}
+
+
+.aboutMe {
+    display: flex;
+    justify-content: space-between;
+
+    
+    padding: 20px; /* Adicionei um espaçamento para melhorar a aparência */
+    
+  }
+  .aboutMe p{
+    text-align: right;
+    position: relative;
+    display: inline-block; /* Para que o gradiente se aplique apenas ao texto e não a toda a largura da caixa */
+    color: transparent; /* Torna o texto transparente */
+    background: linear-gradient(45deg, #00bcd4, #ff4081); /* Adiciona um gradiente de cor ao texto */
+    -webkit-background-clip: text; /* Para navegadores WebKit (Safari, Chrome) */
+    background-clip: text; /* Para navegadores padrão */
+    
+  }
+
+  .textAboutMe span {
+ font-size: 30px;
+  }
+  
+
+  tr:hover {
+    background-color: #161B22;
+  }
+  tr{
+    cursor: pointer;
+  }
+
+
+.table-dark tbody tr {
+    border: 2px linear-gradient(45deg, #00bcd4, #ff4081);
+}
+.table-dark thead th {
+    border: 2px solid linear-gradient(45deg, #00bcd4, #ff4081);
+}
+
+/* Estilo personalizado para o texto das células da tabela */
+.table-dark tbody tr td {
+    color: #22ABC9;
+}
+
+.title{
+    background-color: #212529;
+    color: #fff;
+
+    text-align: center;
+}
+
+.right-menu, img{
+    width: 400px;
+}
+
+.right-menu, p, li{
+   margin-top: 5%;
+   font-size: 0.9rem;
+
+}
