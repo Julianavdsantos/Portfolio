@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    overflow: hidden;
+   
     background-color: black;
   }
 
@@ -10,13 +10,16 @@ body {
     position: fixed;
     left: 0;
     top: 0;
-    width: 70px;
-    height: 25%;
+    width: 120px;
+    height: 26%;
     background-color: #161B22;
     color: #fff;
     padding: 20px;
     box-sizing: border-box;
+   
+    
   }
+
 
   .socialmidia {
     border-radius: 10px;
@@ -24,7 +27,7 @@ body {
     left: 0;
     top: 20%;
     margin-top: 3%;
-    width: 70px;
+    width: 120px;
     height: 80%;
     background-color: #161B22;
     color: #fff;
@@ -37,7 +40,7 @@ body {
     position: fixed;
     right: 0;
     top: 0;
-    width: 300px; /* Aumentando a largura do menu direito */
+    width: 340px; 
     height: 100%;
     background-color: #161B22;
     color: #fff;
@@ -47,57 +50,61 @@ body {
 
   #center-div {
     border-radius: 10px;
-    margin-left: 150px; /* Adicionando um espaço à esquerda da div central */
-    margin-right: 320px; /* Adicionando um espaço à direita da div central, levando em conta a largura do menu direito */
-    width: calc(100% - 500px); /* Ajustando a largura da div central para ocupar o restante da largura da tela */
+    margin-left: 150px; 
+    margin-right: 320px; 
+    width: calc(100% - 500px); 
     height: 100vh;
-    background-color: #ddd;
-    overflow-y: auto;
+    background-color: #212529;
+  
     
   }
 
   .icons{
     width: 30px;
     color: white;
+  
+  
+
   }
 
   .aboutMe {
     background-color: #212529;
     padding: 20px;
     color: #fff;
-    /*text-align: center;*/
+   
     display: flex;
+    display: flex;
+    justify-content: space-between;
+
+    
+    padding: 20px; 
     
 }
 
-.aboutMe img{
+.imgprofile{
     clip-path: circle(50% at 50% 50%);
     
     
 }
 
 
-.aboutMe {
-    display: flex;
-    justify-content: space-between;
 
-    
-    padding: 20px; /* Adicionei um espaçamento para melhorar a aparência */
-    
-  }
   .aboutMe p{
     text-align: right;
     position: relative;
-    display: inline-block; /* Para que o gradiente se aplique apenas ao texto e não a toda a largura da caixa */
-    color: transparent; /* Torna o texto transparente */
+    display: inline-block; 
+    color: transparent; 
     background: linear-gradient(45deg, #00bcd4, #ff4081); /* Adiciona um gradiente de cor ao texto */
     -webkit-background-clip: text; /* Para navegadores WebKit (Safari, Chrome) */
     background-clip: text; /* Para navegadores padrão */
+    font-size: 1.1rem;
     
   }
 
   .textAboutMe span {
- font-size: 30px;
+  
+   font-size: 30px;
+   
   }
   
 
@@ -118,7 +125,7 @@ body {
 
 /* Estilo personalizado para o texto das células da tabela */
 .table-dark tbody tr td {
-    color: #22ABC9;
+    color:  #c1cbccea;;
 }
 
 .title{
@@ -136,4 +143,60 @@ body {
    margin-top: 5%;
    font-size: 0.9rem;
 
+}
+.description{
+  display: none;
+}
+
+.contact, .icons {
+  display: flex;
+   
+  gap: 20px; 
+}
+.contact{
+  
+  justify-content: end;
+  background-color: #212529;
+  color: #CF5790;
+}
+.detalherProjeto{
+  color: #c1cbccea;
+}
+
+ h2{
+  color: transparent; 
+  background: linear-gradient(45deg, #00bcd4, #ff4081); 
+  -webkit-background-clip: text; 
+  background-clip: text; 
+
+}
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+ 
+  #left-menu {
+      width: 40px;
+  }
+
+  #center-div {
+      margin-left: 50px;
+      margin-right: 20px;
+      width: calc(100% - 70px);
+  }
+
+  #right-menu {
+      width: 200px;
+  }
+
+  .icons {
+      width: 15px;
+  }
+
+  .imgprofile {
+      width: 100px;
+  }
 }
