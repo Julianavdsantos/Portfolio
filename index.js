@@ -1,10 +1,12 @@
 document.addEventListener("DOMContentLoaded", function () {
+    debugger
     var linhas = document.getElementById("tabela").getElementsByTagName("tr");
     var menuProjeto = document.getElementById("right-menu");
     var centerDiv = document.getElementById("center-div");
   
     for (var i = 0; i < linhas.length; i++) {
         linhas[i].addEventListener("click", function () {
+            
             var projectId = this.getAttribute("data-project-id");
 
             switch (projectId) {
@@ -59,14 +61,27 @@ menuProjeto.innerHTML = textoProjeto2;
                     "<a href='https://github.com/Julianavdsantos/Sorte-aqui' target='_blank'>Acesse o código do projeto</a>"+ '<img src="geradordeNumeros.png">';
                        menuProjeto.innerHTML = textoProjeto5;
 
-                     
+                      
 
                     break;
-
                  
-
           
             }
+
+         
+
+           centerDiv.style.marginLeft = "150px";
+            centerDiv.style.borderRadius = "10px";
+            centerDiv.style.marginRight = "320px";
+           centerDiv.style.width = "calc(100% - 500px)";
+            centerDiv.style.height = "100vh";
+
+
+          
+            menuProjeto.classList.remove("disabled");
+
+
+
         });
     }
 });
