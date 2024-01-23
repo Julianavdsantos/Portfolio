@@ -38,9 +38,9 @@ menuProjeto.innerHTML = textoProjeto2;
                     break;
                 case "3":
                     var textoProjeto3 = "<div class='detalherProjeto'><h2>Web Sit</h2>" +
-                        " Este projeto foi elaborado com o objetivo de promover o trabalho de uma cantora pioneira como mulher nas rodas de Samba de BH/Mg,"+ 
+                        " Este projeto foi elaborado com o objetivo de promover o trabalho de uma cantora pioneira como mulher nas rodas de Samba de BH/Mg, Jussara Pretta,"+ 
                         " Destacando não apenas sua incrível trajetória musical, mas também as canções inesquecíveis que compõem o rico repertório dessa artista dedicada. </p></div>" +
-                        "<a href='https://jussarapretta.com/' target='_blank'>Acesse o código do projeto</a>"+ '<img src="webSite.png">';
+                        "<a href='https://jussarapretta.com/' target='_blank'>https://jussarapretta.com/</a>"+ '<img src="webSite.png">';
                     menuProjeto.innerHTML = textoProjeto3;
                     break;
                 case "4":
