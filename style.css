@@ -41,6 +41,19 @@ body {
   transition: width 0.3s; /* Adicionado transição para suavizar a animação */
 }
 
+.processo{
+  background-color: #212529;
+  color: #c1cbcc;
+  height: 40%;
+ 
+  
+}
+
+.documentacao{
+  margin-left: 5%;
+}
+
+
 #right-menu.disabled {
   display: none;
 }
@@ -153,19 +166,27 @@ display: none;
 }
 
 .contact, .icons {
-display: flex;
  
+ margin-left: 20px;
+display: flex;
+  
 gap: 20px; 
 }
 .contact{
 
+  margin-left: 50px;
+  margin-right: 20px;
+  width: calc(100% - 70px);
+
 justify-content: end;
-background-color: #212529;
+background-color: #000000;
 color: #CF5790;
 }
 .detalherProjeto{
 color: #c1cbccea;
 }
+
+
 
 h2{
 color: transparent; 
@@ -175,25 +196,53 @@ background-clip: text;
 
 }
 
+.progress-container {
+  position: relative;
+  width: 20%;
+  height: 20px;
+  background-color: #eee;
+  border-radius: 10px; /* Metade da altura para criar uma aparência arredondada */
+  overflow: hidden;
+}
+
+.progress-bar {
+  width: 50%;
+  height: 100%;
+  background-color: #3498db;
+  border-radius: 10px; /* Metade da altura para criar uma aparência arredondada */
+  transition: width 0.5s ease-in-out;
+}
+
+.progress-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #000;
+}
 
 
 
 
 
-@media screen and (max-width: 768px) {
+
+@media screen and (max-width: 998px) {
 
 #left-menu {
     width: 40px;
+  
 }
 
 #center-div {
     margin-left: 50px;
     margin-right: 20px;
     width: calc(100% - 70px);
+    background-color: red;
 }
 
 #right-menu {
     width: 200px;
+    background-color: red;
 }
 
 .icons {
