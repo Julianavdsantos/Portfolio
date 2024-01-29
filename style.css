@@ -256,13 +256,19 @@ width: 100px;
     height: 10%;
     width: 100%;
   }
+  #QrcodeCurriculo{
+    width: 100px;
+     margin-left: -30%; 
+     margin-top: 30%;
+        
+    }
   
   .home {
     display: flex;
     align-items: center;
     
     border-radius: 10px;
-    height: 20%;
+    height: 10%;
     width: 100%;
     background-color: #161B22;
     color: #fff;
@@ -344,9 +350,9 @@ width: 100px;
   }
 
   #QrcodeCurriculo{
-    width: 80px;
-     margin-left: -30%; 
-     margin-top: 30%;
+  
+
+    width: 50%;
         
     }
     
@@ -421,7 +427,7 @@ width: 100px;
 
 
   .imgprofile {
-    width:90px
+    width:50px
   }
 
   .processo{
