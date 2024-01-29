@@ -15,7 +15,7 @@ body {
   top: 0;
   width: 120px;
   height: 100%;
-  background-color: #161B22;
+  background-color: #121212;
   color: #fff;
   padding: 20px;
   box-sizing: border-box;
@@ -40,7 +40,7 @@ margin-top:-10%;
 }
 
 .processo{
-  background-color: #212529;
+  background-color: #0a0909a6;
   color: #c1cbcc;
   height: 40%;
  
@@ -63,7 +63,7 @@ margin-top:-10%;
   top: 0;
   width: 340px; 
   height: 100%;
-  background-color: #161B22;
+  background-color: #0a0909a6;
   color: #fff;
   padding: 20px;
   box-sizing: border-box;
@@ -81,7 +81,7 @@ margin-top:-10%;
 }
 
 .aboutMe {
-  background-color: #212529;
+  background-color: #0a0909a6;
   padding: 20px;
   color: #fff;
  
@@ -126,10 +126,11 @@ margin-top:-10%;
 
 
 tr:hover {
-  background-color: #161B22;
+  background-color: #2220204d;
 }
 tr{
   cursor: pointer;
+  background-color: #121212;
 }
 
 
@@ -146,7 +147,7 @@ tr{
 }
 
 .title{
-  background-color: #212529;
+  background-color: #292929;
   color: #fff;
 
   text-align: center;
@@ -231,7 +232,7 @@ background-clip: text;
   margin-left: 75%;
   margin-top: -20%;
    color: #c1cbcc;
-   background-color: #161B22;
+   background-color:#121212;
   border: none;
   font-size:30px;
 }
@@ -270,7 +271,7 @@ width: 100px;
     border-radius: 10px;
     height: 10%;
     width: 100%;
-    background-color: #161B22;
+    background-color: #292929;
     color: #fff;
     padding: 0 20px;
     box-sizing: border-box;
@@ -307,6 +308,7 @@ width: 100px;
     text-align: left;
     justify-content: space-between;
     position: fixed;
+  
     top: 10%;
     left: 50%; /* Ajusta o menu para o centro horizontal da tela */
     transform: translateX(-50%); /* Centraliza o menu mesmo se a largura for variável */
@@ -314,7 +316,7 @@ width: 100px;
     height: 100%;
     max-width: 600px;
     max-height: 600px;
-    background-color: #161B22;
+    background-color: #0a0909;
     color: #fff;
     padding: 0 20px;
     box-sizing: border-box;
@@ -351,17 +353,16 @@ width: 100px;
 
   #QrcodeCurriculo{
   
-
-    width: 90%;
+ display: none;
         
     }
     
   .aboutMe{
-    background-color: #212529;
+    background-color: #0a0909a6;
     padding: 10px;
     color: #fff;
     margin-top: 30%;
-   
+    margin-right: 10%;
     display: flex;
   
 
@@ -384,7 +385,7 @@ width: 100px;
 
   
 .socialMedia {
-  margin-left: 20%;
+  margin-left: 10%;
   margin-top:-10%;
 
   }
@@ -397,19 +398,12 @@ width: 100px;
 
   .Project{
     margin-top: 2%;
+    margin-right: 10%;
+  
   }
   
   
-  .closeButton{
-    position: absolute;
-    cursor: pointer;
-    margin-left: 75%;
-    margin-top: -20%;
-     color: #c1cbcc;
-     background-color: #161B22;
-    border: none;
-    font-size:30px;
-  }
+
   
 
   .closeButton{
@@ -418,7 +412,7 @@ width: 100px;
     margin-left: 75%;
     margin-top: -10%;
      color: #c1cbcc;
-     background-color: #161B22;
+     background-color: #121212;
     border: none;
     font-size:30px;
   }
@@ -432,9 +426,14 @@ width: 100px;
 
   .processo{
     height: 50%;
+    margin-right: 10%;
 
 
 
+  }
+
+  .contact{
+    font-size: 0.0rem;
   }
 
 
