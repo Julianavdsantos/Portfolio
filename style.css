@@ -133,6 +133,10 @@ tr{
   background-color: #121212;
 }
 
+.table-dark td, .table-dark th, .table-dark thead th {
+  border-color: rgb(79 149 186);
+}
+
 
 .table-dark tbody tr {
   border: 2px linear-gradient(45deg, #00bcd4, #ff4081);
@@ -252,6 +256,8 @@ width: 100px;
 
 @media screen and (max-width: 920px) {
 
+
+
  
   #left-menu {
     height: 10%;
@@ -308,11 +314,11 @@ width: 100px;
     text-align: left;
     justify-content: space-between;
     position: fixed;
-  
+   
     top: 10%;
     left: 50%; /* Ajusta o menu para o centro horizontal da tela */
     transform: translateX(-50%); /* Centraliza o menu mesmo se a largura for variável */
-    width: 80%;
+    width: 90%;
     height: 100%;
     max-width: 600px;
     max-height: 600px;
@@ -358,7 +364,7 @@ width: 100px;
     }
     
   .aboutMe{
-    background-color: #0a0909a6;
+    background-color: #080a27;
     padding: 10px;
     color: #fff;
     margin-top: 30%;
@@ -385,7 +391,7 @@ width: 100px;
 
   
 .socialMedia {
-  margin-left: 10%;
+  margin-left: 5%;
   margin-top:-10%;
 
   }
@@ -427,6 +433,7 @@ width: 100px;
   .processo{
     height: 50%;
     margin-right: 10%;
+    background-color: #080a27;
 
 
 
