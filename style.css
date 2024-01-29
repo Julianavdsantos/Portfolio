@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
- 
+
   background-color: black;
 }
 
@@ -11,7 +11,7 @@ body {
 
 
 .row {
- 
+
   display: flex;
   justify-content: space-around;
   width: 100%;
@@ -19,49 +19,62 @@ body {
 
 
 .col-sm-4 {
-  flex: 0 0 30%; /* Ajuste a largura conforme necessário */
+  flex: 0 0 30%;
+  /* Ajuste a largura conforme necessário */
 }
 
 .card {
   border-color: bisque;
   background-color: #070606;
-  margin: 1rem; /* Ajuste a margem conforme necessário */
-  transition: transform 0.3s ease; /* Efeito de transição suave */
+  margin: 1rem;
+  /* Ajuste a margem conforme necessário */
+  transition: transform 0.3s ease;
+  /* Efeito de transição suave */
 }
 
 
 
 
-.card p{
-  color: transparent; 
-  background: linear-gradient(45deg, #00bcd4, #ff4081); /* Adiciona um gradiente de cor ao texto */
-  -webkit-background-clip: text; /* Para navegadores WebKit (Safari, Chrome) */
-  background-clip: text; /* Para navegadores padrão */
+.card p {
+  color: transparent;
+  background: linear-gradient(45deg, #00bcd4, #ff4081);
+  /* Adiciona um gradiente de cor ao texto */
+  -webkit-background-clip: text;
+  /* Para navegadores WebKit (Safari, Chrome) */
+  background-clip: text;
+  /* Para navegadores padrão */
   font-size: 0.9rem;
 
 }
 
 
 .card:hover {
-  transform: scale(1.05); /* Efeito de escala ao passar o mouse */
+  transform: scale(1.05);
+  /* Efeito de escala ao passar o mouse */
 }
 
 .card-title {
-  color: bisque; /* Cor do título */
-  
-    color: transparent; 
-    background: linear-gradient(45deg, #00bcd4, #ff4081); /* Adiciona um gradiente de cor ao texto */
-    -webkit-background-clip: text; /* Para navegadores WebKit (Safari, Chrome) */
-    background-clip: text; /* Para navegadores padrão */
+  color: bisque;
+  /* Cor do título */
+
+  color: transparent;
+  background: linear-gradient(45deg, #00bcd4, #ff4081);
+  /* Adiciona um gradiente de cor ao texto */
+  -webkit-background-clip: text;
+  /* Para navegadores WebKit (Safari, Chrome) */
+  background-clip: text;
+  /* Para navegadores padrão */
 
 }
 
 .card-text {
-  color: lightgrey; /* Cor do texto */
+  color: lightgrey;
+  /* Cor do texto */
 }
 
 a {
-  color: #5991B7; /* Cor do link */
+  color: #5991B7;
+  /* Cor do link */
 }
 
 
@@ -78,35 +91,36 @@ a {
   color: #fff;
   padding: 20px;
   box-sizing: border-box;
- 
-  
-} 
+
+
+}
 
 
 
 
 
 .socialMedia {
-margin-left: 50%;
-margin-top:-10%;
+  margin-left: 50%;
+  margin-top: -10%;
 }
 
 .expandir {
-  height :100vh;
+  height: 100vh;
   margin-left: 10%;
   width: 88%;
-  transition: width 0.3s; /* Adicionado transição para suavizar a animação */
+  transition: width 0.3s;
+  /* Adicionado transição para suavizar a animação */
 }
 
-.processo{
+.processo {
   background-color: #070606;
   color: #c1cbcc;
   height: 50%;
- 
-  
+
+
 }
 
-.documentacao{
+.documentacao {
   margin-left: 5%;
 }
 
@@ -120,7 +134,7 @@ margin-top:-10%;
   position: fixed;
   right: 0;
   top: 0;
-  width: 340px; 
+  width: 340px;
   height: 100%;
   background-color: #0a0909a6;
   color: #fff;
@@ -131,7 +145,7 @@ margin-top:-10%;
 
 
 
-.icons{
+.icons {
   width: 30px;
   color: white;
   margin-top: 50%;
@@ -143,42 +157,49 @@ margin-top:-10%;
   background-color: #0a0909a6;
   padding: 20px;
   color: #fff;
- 
+
   display: flex;
   justify-content: space-between;
 
-  
+
 }
 
-.imgprofile{
+.imgprofile {
   clip-path: circle(50% at 50% 50%);
-  width:100px ;
+  width: 100px;
   padding: 5%;
-  
-  
+
+
 }
-.Hello{
-  color: transparent; 
-  background: linear-gradient(45deg, #00bcd4, #ff4081); /* Adiciona um gradiente de cor ao texto */
-  -webkit-background-clip: text; /* Para navegadores WebKit (Safari, Chrome) */
-  background-clip: text; /* Para navegadores padrão */
+
+.Hello {
+  color: transparent;
+  background: linear-gradient(45deg, #00bcd4, #ff4081);
+  /* Adiciona um gradiente de cor ao texto */
+  -webkit-background-clip: text;
+  /* Para navegadores WebKit (Safari, Chrome) */
+  background-clip: text;
+  /* Para navegadores padrão */
   font-size: 1.5rem;
 
 }
 
-.aboutMe p{
+.aboutMe p {
   text-align: right;
   position: relative;
-  display: inline-block; 
-  color: transparent; 
-  background: linear-gradient(45deg, #00bcd4, #ff4081); /* Adiciona um gradiente de cor ao texto */
-  -webkit-background-clip: text; /* Para navegadores WebKit (Safari, Chrome) */
-  background-clip: text; /* Para navegadores padrão */
+  display: inline-block;
+  color: transparent;
+  background: linear-gradient(45deg, #00bcd4, #ff4081);
+  /* Adiciona um gradiente de cor ao texto */
+  -webkit-background-clip: text;
+  /* Para navegadores WebKit (Safari, Chrome) */
+  background-clip: text;
+  /* Para navegadores padrão */
   font-size: 1.1rem;
-  gap:5rem;
+  gap: 5rem;
   line-height: 1.2;
 
-  
+
 }
 
 
@@ -187,12 +208,15 @@ margin-top:-10%;
 tr:hover {
   background-color: #2220204d;
 }
-tr{
+
+tr {
   cursor: pointer;
   background-color: #121212;
 }
 
-.table-dark td, .table-dark th, .table-dark thead th {
+.table-dark td,
+.table-dark th,
+.table-dark thead th {
   border-color: rgb(79 149 186);
 }
 
@@ -200,67 +224,76 @@ tr{
 .table-dark tbody tr {
   border: 2px linear-gradient(45deg, #00bcd4, #ff4081);
 }
+
 .table-dark thead th {
   border: 2px solid linear-gradient(45deg, #00bcd4, #ff4081);
 }
 
 /* Estilo personalizado para o texto das células da tabela */
 .table-dark tbody tr td {
-  color:  #c1cbccea;;
+  color: #c1cbccea;
+  ;
 }
 
-.title{
+.title {
   background-color: #292929;
   color: #fff;
 
   text-align: center;
 }
 
-.right-menu, img{
+.right-menu,
+img {
   width: 400px;
 }
 
-.right-menu, p, li{
- margin-top: 5%;
- font-size: 0.9rem;
+.right-menu,
+p,
+li {
+  margin-top: 5%;
+  font-size: 0.9rem;
 
 }
 
-.detalherProjeto{
+.detalherProjeto {
   margin-top: 15%;
 }
-.description{
-display: none;
+
+.description {
+  display: none;
 }
 
-.contact, .icons {
- 
- margin-left: 20px;
-display: flex;
-  
-gap: 20px; 
+.contact,
+.icons {
+
+  margin-left: 20px;
+  display: flex;
+
+  gap: 20px;
 }
-.contact{
+
+.contact {
 
   margin-left: 50px;
   margin-right: 20px;
   width: calc(100% - 70px);
 
-justify-content: end;
-background-color: #000000;
-color: #CF5790;
-}
-.detalherProjeto{
-color: #c1cbccea;
+  justify-content: end;
+  background-color: #000000;
+  color: #CF5790;
 }
 
+.detalherProjeto {
+  color: #c1cbccea;
+}
 
 
-h2{
-color: transparent; 
-background: linear-gradient(45deg, #00bcd4, #ff4081); 
--webkit-background-clip: text; 
-background-clip: text; 
+
+h2 {
+  color: transparent;
+  background: linear-gradient(45deg, #00bcd4, #ff4081);
+  -webkit-background-clip: text;
+  background-clip: text;
 
 }
 
@@ -269,7 +302,8 @@ background-clip: text;
   width: 20%;
   height: 20px;
   background-color: #eee;
-  border-radius: 10px; /* Metade da altura para criar uma aparência arredondada */
+  border-radius: 10px;
+  /* Metade da altura para criar uma aparência arredondada */
   overflow: hidden;
 }
 
@@ -277,7 +311,8 @@ background-clip: text;
   width: 50%;
   height: 100%;
   background-color: #3498db;
-  border-radius: 10px; /* Metade da altura para criar uma aparência arredondada */
+  border-radius: 10px;
+  /* Metade da altura para criar uma aparência arredondada */
   transition: width 0.5s ease-in-out;
 }
 
@@ -289,22 +324,22 @@ background-clip: text;
   color: #000;
 }
 
-.closeButton{
+.closeButton {
   position: absolute;
   cursor: pointer;
   margin-left: 75%;
   margin-top: -20%;
-   color: #c1cbcc;
-   background-color:#121212;
+  color: #c1cbcc;
+  background-color: #121212;
   border: none;
-  font-size:30px;
+  font-size: 30px;
 }
 
-#QrcodeCurriculo{
-width: 100px;
- margin-left: -30%; 
- margin-top: 30%;
-    
+#QrcodeCurriculo {
+  width: 100px;
+  margin-left: -30%;
+  margin-top: 30%;
+
 }
 
 
@@ -317,22 +352,23 @@ width: 100px;
 
 
 
- 
+
   #left-menu {
     height: 10%;
     width: 100%;
   }
-  #QrcodeCurriculo{
+
+  #QrcodeCurriculo {
     width: 100px;
-     margin-left: -30%; 
-     margin-top: 30%;
-        
-    }
-  
+    margin-left: -30%;
+    margin-top: 30%;
+
+  }
+
   .home {
     display: flex;
     align-items: center;
-    
+
     border-radius: 10px;
     height: 10%;
     width: 100%;
@@ -342,26 +378,28 @@ width: 100px;
     box-sizing: border-box;
     z-index: 1;
   }
-  
+
   .home a {
     text-decoration: none;
     color: #fff;
     margin: 0 10px;
   }
-  
+
   .home .icons {
-    width: 24px; /* Ajuste o tamanho conforme necessário */
+    width: 24px;
+    /* Ajuste o tamanho conforme necessário */
     height: 24px;
 
   }
-  
+
   /* Adicionando estilos para os textos "hatSkills" e "Currículo" */
   .home span {
     color: #01CCA2;
-    margin-right: 10px; /* Adicionando espaço entre os ícones e os textos */
+    margin-right: 10px;
+    /* Adicionando espaço entre os ícones e os textos */
   }
 
-  
+
 
 
 
@@ -372,10 +410,12 @@ width: 100px;
     text-align: left;
     justify-content: space-between;
     position: fixed;
-   
+
     top: 10%;
-    left: 50%; /* Ajusta o menu para o centro horizontal da tela */
-    transform: translateX(-50%); /* Centraliza o menu mesmo se a largura for variável */
+    left: 50%;
+    /* Ajusta o menu para o centro horizontal da tela */
+    transform: translateX(-50%);
+    /* Centraliza o menu mesmo se a largura for variável */
     width: 90%;
     height: 100%;
     max-width: 600px;
@@ -386,28 +426,28 @@ width: 100px;
     box-sizing: border-box;
     z-index: 1;
   }
-  
+
   #right-menu .disabled {
     display: none;
   }
-  
+
   #right-menu a {
     text-decoration: none;
     color: #fff;
     margin: 0 10px;
   }
-  
+
   #right-menu .icons {
     width: 24px;
     height: 24px;
   }
-  
+
   #right-menu p,
   #right-menu li {
     text-decoration: none;
     margin: 5px 0;
   }
-  
+
   #right-menu img {
     max-width: 100%;
     height: auto;
@@ -415,94 +455,95 @@ width: 100px;
     margin-top: 5%;
   }
 
-  #QrcodeCurriculo{
-  
- display: none;
-        
-    }
-    
-  .aboutMe{
+  #QrcodeCurriculo {
+
+    display: none;
+
+  }
+
+  .aboutMe {
     background-color: #080a27;
     padding: 10px;
     color: #fff;
     margin-top: 30%;
     margin-right: 10%;
     display: flex;
-  
+
 
   }
 
-  .aboutMe p{
+  .aboutMe p {
     text-align: right;
     position: relative;
-    display: inline-block; 
-    color: transparent; 
-    background: linear-gradient(45deg, #00bcd4, #ff4081); /* Adiciona um gradiente de cor ao texto */
-    -webkit-background-clip: text; /* Para navegadores WebKit (Safari, Chrome) */
-    background-clip: text; /* Para navegadores padrão */
+    display: inline-block;
+    color: transparent;
+    background: linear-gradient(45deg, #00bcd4, #ff4081);
+    /* Adiciona um gradiente de cor ao texto */
+    -webkit-background-clip: text;
+    /* Para navegadores WebKit (Safari, Chrome) */
+    background-clip: text;
+    /* Para navegadores padrão */
     font-size: 0.9rem;
-    gap:5rem;
+    gap: 5rem;
     line-height: 1.2;
-  
-    
+
+
   }
 
-  
-.socialMedia {
-  margin-left: 5%;
-  margin-top:-10%;
+
+  .socialMedia {
+    margin-left: 5%;
+    margin-top: -10%;
 
   }
 
   .socialMedia img {
-   width: 20px;
-  
-    }
-  
+    width: 20px;
 
-  .Project{
+  }
+
+
+  .Project {
     margin-top: 2%;
     margin-right: 10%;
-  
+
   }
-  
-  
 
-  
 
-  .closeButton{
+
+
+
+  .closeButton {
     position: absolute;
     cursor: pointer;
     margin-left: 75%;
     margin-top: -10%;
-     color: #c1cbcc;
-     background-color: #121212;
+    color: #c1cbcc;
+    background-color: #121212;
     border: none;
-    font-size:30px;
+    font-size: 30px;
   }
-  
-  
+
+
 
 
   .imgprofile {
-    width:50px
+    width: 50px
   }
 
-  .processo{
+  .processo {
     height: 90%;
     margin-right: 10%;
     background-color: #070606;
-   
+
   }
 
 
 
 
-  .contact{
+  .contact {
     font-size: 0.0rem;
   }
 
 
 }
-
-
