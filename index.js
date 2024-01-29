@@ -1,17 +1,33 @@
+
+
 document.addEventListener("DOMContentLoaded", function () {
     debugger
+
     var linhas = document.getElementById("tabela").getElementsByTagName("tr");
     var menuProjeto = document.getElementById("right-menu");
     var centerDiv = document.getElementById("center-div");
+    var closeButton = document.getElementsByClassName("closeButton");
+    var theadCollection = document.getElementById("tabela").getElementsByTagName("thead");
+    
+
+
+
+
+
   
     for (var i = 0; i < linhas.length; i++) {
-        linhas[i].addEventListener("click", function () {
+        linhas[i].addEventListener("click", function (event) {
             
             var projectId = this.getAttribute("data-project-id");
 
+            if (event.target.tagName.toLowerCase() === 'th') {
+                
+                return;
+            }
+
             switch (projectId) {
                 case "1":
-                    var textoProjeto1 =  "<div class='detalherProjeto'><h2>Api Star Wars</h2>" +
+                    var textoProjeto1 =  "<div class='detalherProjeto'><button class='closeButton'>x</h1></button>" +"<h2>Api Star Wars</h2>"  +
                          "<p>Projeto em C# ASP.NET MVC para uma aplicação web que consome a API pública Star Wars (SWAPI), " +
                         " fornecendo detalhes expandidos ao clicar em filmes, planetas ou veículos específicos.</p>" +
                         "<ul>" +
@@ -24,7 +40,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                     break;
                 case "2":
-                    var textoProjeto2 = "<div class='detalherProjeto'><h2>CRUD Despesas</h2>" +
+                    var textoProjeto2 = "<div class='detalherProjeto'><button class='closeButton'>X</h1></button>" +"<h2>CRUD Despesas</h2>" +
                        "<p>Crud de controle de despesas pessoais. (Em aperfeiçoamento - objeto de estudo)" +
                         "<ul>" +
                         "<li>API RESTFUL, para recuperar informações sobre categorias</li>" +
@@ -37,14 +53,14 @@ menuProjeto.innerHTML = textoProjeto2;
 
                     break;
                 case "3":
-                    var textoProjeto3 = "<div class='detalherProjeto'><h2>Web Sit</h2>" +
+                    var textoProjeto3 = "<div class='detalherProjeto'><button class='closeButton'>X</h1></button>" +"<h2>Web Sit</h2>" +
                         " Este projeto foi elaborado com o objetivo de promover o trabalho de uma cantora pioneira como mulher nas rodas de Samba de BH/Mg, Jussara Pretta,"+ 
                         " Destacando não apenas sua incrível trajetória musical, mas também as canções inesquecíveis que compõem o rico repertório dessa artista dedicada. </p></div>" +
                         "<a href='https://jussarapretta.com/' target='_blank'>https://jussarapretta.com/</a>"+ '<img src="webSite.png">';
                     menuProjeto.innerHTML = textoProjeto3;
                     break;
                 case "4":
-                    var textoProjeto4 = "<div class='detalherProjeto'><h2>Registro Patrimônial-UFMG</h2>" +
+                    var textoProjeto4 = "<div class='detalherProjeto'><button class='closeButton'>X</h1></button>" +"<h2>Registro Patrimônial-UFMG</h2>" +
                         " Sistema de registro patrimonial através de leitura de códigos de barras, permitindo " +
                         " classificação por departamento e exportação de planilhas. Apesar da simplicidade, o " +
                         "projeto resultou em eficiência, reduzindo pela metade o tempo de execução do "+
@@ -55,7 +71,7 @@ menuProjeto.innerHTML = textoProjeto2;
                         menuProjeto.innerHTML = textoProjeto4;
                     break;
                 case "5":
-                    var textoProjeto5="<div class='detalherProjeto'><h2>Gerador de Números</h2>" +
+                    var textoProjeto5="<div class='detalherProjeto'><button class='closeButton'>X</h1></button>" +"<h2>Gerador de Números</h2>" +
                     "Este projeto é uma aplicação web simples e intuitiva que permite a geração de números aleatórios com base nos parâmetros fornecidos pelo usuário,"+ 
                     " oferecendo uma ferramenta eficaz para escolha de números em jogos </div> "+
                     "<a href='https://github.com/Julianavdsantos/Sorte-aqui' target='_blank'>Acesse o código do projeto</a>"+ '<img src="geradordeNumeros.png">';
@@ -67,6 +83,11 @@ menuProjeto.innerHTML = textoProjeto2;
                  
           
             }
+
+
+            
+
+        
 
          
 
@@ -82,6 +103,32 @@ menuProjeto.innerHTML = textoProjeto2;
 
 
 
+
+            var closeButton = document.querySelector(".closeButton");
+            closeButton.addEventListener("click", function () {
+                menuProjeto.classList.add("disabled");
+
+               
+            
+                centerDiv.style.height = "100vh";
+                centerDiv.style.marginLeft = "10%";
+                centerDiv.style.width = "88%";
+                //centerDiv.style.transition = "width 0.3s"; // Adicionado transição para suavizar a animação
+            });
+            
+
+
+
         });
+
+
+
+      
+
+          
+
+
+
+
     }
 });
