@@ -8,6 +8,63 @@ body {
 
 
 
+.row {
+ 
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+
+.col-sm-4 {
+  flex: 0 0 30%; /* Ajuste a largura conforme necessário */
+}
+
+.card {
+  border-color: bisque;
+  background-color: #070606;
+  margin: 1rem; /* Ajuste a margem conforme necessário */
+  transition: transform 0.3s ease; /* Efeito de transição suave */
+}
+
+
+
+
+.card p{
+  color: transparent; 
+  background: linear-gradient(45deg, #00bcd4, #ff4081); /* Adiciona um gradiente de cor ao texto */
+  -webkit-background-clip: text; /* Para navegadores WebKit (Safari, Chrome) */
+  background-clip: text; /* Para navegadores padrão */
+  font-size: 0.9rem;
+
+}
+
+
+.card:hover {
+  transform: scale(1.05); /* Efeito de escala ao passar o mouse */
+}
+
+.card-title {
+  color: bisque; /* Cor do título */
+  
+    color: transparent; 
+    background: linear-gradient(45deg, #00bcd4, #ff4081); /* Adiciona um gradiente de cor ao texto */
+    -webkit-background-clip: text; /* Para navegadores WebKit (Safari, Chrome) */
+    background-clip: text; /* Para navegadores padrão */
+
+}
+
+.card-text {
+  color: lightgrey; /* Cor do texto */
+}
+
+a {
+  color: #5991B7; /* Cor do link */
+}
+
+
+
+
 .home {
   border-radius: 10px;
   position: fixed;
@@ -40,9 +97,9 @@ margin-top:-10%;
 }
 
 .processo{
-  background-color: #0a0909a6;
+  background-color: #070606;
   color: #c1cbcc;
-  height: 40%;
+  height: 50%;
  
   
 }
@@ -112,7 +169,7 @@ margin-top:-10%;
   position: relative;
   display: inline-block; 
   color: transparent; 
-  background: linear-gradient(45deg, #00bcd4, #ff4081); 
+  background: linear-gradient(45deg, #00bcd4, #ff4081); /* Adiciona um gradiente de cor ao texto */
   -webkit-background-clip: text; /* Para navegadores WebKit (Safari, Chrome) */
   background-clip: text; /* Para navegadores padrão */
   font-size: 1.1rem;
@@ -210,7 +267,7 @@ background-clip: text;
   width: 20%;
   height: 20px;
   background-color: #eee;
-  border-radius: 10px; 
+  border-radius: 10px; /* Metade da altura para criar uma aparência arredondada */
   overflow: hidden;
 }
 
@@ -301,7 +358,6 @@ width: 100px;
     color: #01CCA2;
     margin-right: 10px; /* Adicionando espaço entre os ícones e os textos */
   }
-  
 
   
 
@@ -316,8 +372,8 @@ width: 100px;
     position: fixed;
    
     top: 10%;
-    left: 50%; 
-    transform: translateX(-50%); 
+    left: 50%; /* Ajusta o menu para o centro horizontal da tela */
+    transform: translateX(-50%); /* Centraliza o menu mesmo se a largura for variável */
     width: 90%;
     height: 100%;
     max-width: 600px;
@@ -431,13 +487,14 @@ width: 100px;
   }
 
   .processo{
-    height: 50%;
+    height: 90%;
     margin-right: 10%;
-    background-color: #080a27;
-
-
-
+    background-color: #070606;
+   
   }
+
+
+
 
   .contact{
     font-size: 0.0rem;
