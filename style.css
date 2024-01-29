@@ -5,35 +5,33 @@ body {
   background-color: black;
 }
 
+
+
+
 .home {
   border-radius: 10px;
   position: fixed;
   left: 0;
   top: 0;
   width: 120px;
-  height: 26%;
+  height: 100%;
   background-color: #161B22;
   color: #fff;
   padding: 20px;
   box-sizing: border-box;
  
   
-}
+} 
 
 
-.socialmidia {
-  border-radius: 10px;
-  position: fixed;
-  left: 0;
-  top: 20%;
-  margin-top: 3%;
-  width: 120px;
-  height: 80%;
-  background-color: #161B22;
-  color: #fff;
-  padding: 20px;
-  box-sizing: border-box;
+
+
+
+.socialMedia {
+margin-left: 50%;
+margin-top:-10%;
 }
+
 .expandir {
   height :100vh;
   margin-left: 10%;
@@ -77,7 +75,7 @@ body {
 .icons{
   width: 30px;
   color: white;
-
+  margin-top: 50%;
 
 
 }
@@ -88,16 +86,15 @@ body {
   color: #fff;
  
   display: flex;
-  display: flex;
   justify-content: space-between;
 
-  
-  padding: 20px; 
   
 }
 
 .imgprofile{
   clip-path: circle(50% at 50% 50%);
+  width:100px ;
+  padding: 5%;
   
   
 }
@@ -119,6 +116,9 @@ body {
   -webkit-background-clip: text; /* Para navegadores WebKit (Safari, Chrome) */
   background-clip: text; /* Para navegadores padrão */
   font-size: 1.1rem;
+  gap:5rem;
+  line-height: 1.2;
+
   
 }
 
@@ -160,6 +160,10 @@ tr{
  margin-top: 5%;
  font-size: 0.9rem;
 
+}
+
+.detalherProjeto{
+  margin-top: 15%;
 }
 .description{
 display: none;
@@ -221,35 +225,213 @@ background-clip: text;
   color: #000;
 }
 
+.closeButton{
+  position: absolute;
+  cursor: pointer;
+  margin-left: 75%;
+  margin-top: -20%;
+   color: #c1cbcc;
+   background-color: #161B22;
+  border: none;
+  font-size:30px;
+}
+
+#QrcodeCurriculo{
+width: 100px;
+ margin-left: -30%; 
+ margin-top: 30%;
+    
+}
 
 
 
 
 
-@media screen and (max-width: 998px) {
 
-#left-menu {
-    width: 40px;
+
+@media screen and (max-width: 920px) {
+
+ 
+  #left-menu {
+    height: 10%;
+    width: 100%;
+  }
   
+  .home {
+    display: flex;
+    align-items: center;
+    
+    border-radius: 10px;
+    height: 20%;
+    width: 100%;
+    background-color: #161B22;
+    color: #fff;
+    padding: 0 20px;
+    box-sizing: border-box;
+    z-index: 1;
+  }
+  
+  .home a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+  }
+  
+  .home .icons {
+    width: 24px; /* Ajuste o tamanho conforme necessário */
+    height: 24px;
+
+  }
+  
+  /* Adicionando estilos para os textos "hatSkills" e "Currículo" */
+  .home span {
+    color: #01CCA2;
+    margin-right: 10px; /* Adicionando espaço entre os ícones e os textos */
+  }
+  
+
+  
+
+
+
+  #right-menu {
+    display: block;
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+    justify-content: space-between;
+    position: fixed;
+    top: 10%;
+    left: 50%; /* Ajusta o menu para o centro horizontal da tela */
+    transform: translateX(-50%); /* Centraliza o menu mesmo se a largura for variável */
+    width: 80%;
+    height: 100%;
+    max-width: 600px;
+    max-height: 600px;
+    background-color: #161B22;
+    color: #fff;
+    padding: 0 20px;
+    box-sizing: border-box;
+    z-index: 1;
+  }
+  
+  #right-menu .disabled {
+    display: none;
+  }
+  
+  #right-menu a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+  }
+  
+  #right-menu .icons {
+    width: 24px;
+    height: 24px;
+  }
+  
+  #right-menu p,
+  #right-menu li {
+    text-decoration: none;
+    margin: 5px 0;
+  }
+  
+  #right-menu img {
+    max-width: 100%;
+    height: auto;
+
+    margin-top: 5%;
+  }
+
+  #QrcodeCurriculo{
+    width: 80px;
+     margin-left: -30%; 
+     margin-top: 30%;
+        
+    }
+    
+  .aboutMe{
+    background-color: #212529;
+    padding: 10px;
+    color: #fff;
+    margin-top: 30%;
+   
+    display: flex;
+  
+
+  }
+
+  .aboutMe p{
+    text-align: right;
+    position: relative;
+    display: inline-block; 
+    color: transparent; 
+    background: linear-gradient(45deg, #00bcd4, #ff4081); /* Adiciona um gradiente de cor ao texto */
+    -webkit-background-clip: text; /* Para navegadores WebKit (Safari, Chrome) */
+    background-clip: text; /* Para navegadores padrão */
+    font-size: 0.9rem;
+    gap:5rem;
+    line-height: 1.2;
+  
+    
+  }
+
+  
+.socialMedia {
+  margin-left: 20%;
+  margin-top:-10%;
+
+  }
+
+  .socialMedia img {
+   width: 20px;
+  
+    }
+  
+
+  .Project{
+    margin-top: 2%;
+  }
+  
+  
+  .closeButton{
+    position: absolute;
+    cursor: pointer;
+    margin-left: 75%;
+    margin-top: -20%;
+     color: #c1cbcc;
+     background-color: #161B22;
+    border: none;
+    font-size:30px;
+  }
+  
+
+  .closeButton{
+    position: absolute;
+    cursor: pointer;
+    margin-left: 75%;
+    margin-top: -10%;
+     color: #c1cbcc;
+     background-color: #161B22;
+    border: none;
+    font-size:30px;
+  }
+  
+  
+
+
+  .imgprofile {
+    width:90px
+  }
+
+  .processo{
+    height: 50%;
+
+
+
+  }
+
+
 }
 
-#center-div {
-    margin-left: 50px;
-    margin-right: 20px;
-    width: calc(100% - 70px);
-    background-color: red;
-}
 
-#right-menu {
-    width: 200px;
-    background-color: red;
-}
-
-.icons {
-    width: 15px;
-}
-
-.imgprofile {
-    width: 100px;
-}
-}
