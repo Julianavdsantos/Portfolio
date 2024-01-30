@@ -24,6 +24,8 @@ var ProjetoApp = (function () {
                "<li>Padrão MVC " +
                "<li>Tratamento de erros</li>" +
                "<li>Consumo de API Externa</li>" +
+               "<li>Este mesmo projeto também foi desenvolvido em javascript com web service <a href='https://github.com/Julianavdsantos/StarWarsApi' target='_blank'>Ver código</a>'</li>" +
+
                "</ul></div>" + "<a href='https://github.com/Julianavdsantos/ApiC-MVC2' target='_blank'>Acesse o código do projeto</a>" + '<img src="starWars2.png">';
                   
                 break;
