@@ -462,12 +462,14 @@ h2 {
   }
 
   .aboutMe {
-    background-color: #080a27;
+    background-color: 070606;
     padding: 10px;
     color: #fff;
     margin-top: 30%;
-    margin-right: 10%;
+    margin-left: -10%;
+    width:106%;
     display: flex;
+    
 
 
   }
@@ -505,7 +507,8 @@ h2 {
 
   .Project {
     margin-top: 2%;
-    margin-right: 10%;
+    margin-left: -10%;
+    width:106%;
 
   }
 
@@ -533,7 +536,9 @@ h2 {
 
   .processo {
     height: 90%;
-    margin-right: 10%;
+    
+    margin-left: -10%;
+    width:106%;
     background-color: #070606;
 
   }
