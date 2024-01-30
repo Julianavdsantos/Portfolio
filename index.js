@@ -30,9 +30,10 @@ var ProjetoApp = (function () {
             case "2":
                 textoProjeto = "<div class='detalherProjeto'><button class='closeButton'>X</h1></button>" +"<h2>Portifólio</h2>" +
                 "<p>Este projeto consiste em um portfólio que destaca alguns dos projetos que desenvolvi, " +
-                 "<ul>" +"<li>utilizando</li>" +
-                 "<li>utilizando HTML, CSS e JavaScript</li>" +
+                 "<ul>"  +
+                 "<li> Uso HTML, CSS e JavaScript</li>" +
                  "<li>Padrão de design 'Revealing Module Pattern'</li>" +
+                 "<li> Bootstrap</li>" +
                  "</ul></div>" +
                  "<a href='hhttps://github.com/Julianavdsantos/Portfolio' target='_blank'>Acesse o código do projeto</a>"+ '<img src="foto potifolio.png">';
                 break;
