@@ -32,7 +32,7 @@ var ProjetoApp = (function () {
                 "<p>Este projeto consiste em um portfólio que destaca alguns dos projetos que desenvolvi, " +
                  "<ul>"  +
                  "<li> Uso HTML, CSS e JavaScript</li>" +
-                 "<li>Padrão de design 'Revealing Module Pattern'</li>" +
+                 "<li>Padrão de designer patterns 'Revealing Module Pattern'</li>" +
                  "<li> Bootstrap</li>" +
                  "</ul></div>" +
                  "<a href='hhttps://github.com/Julianavdsantos/Portfolio' target='_blank'>Acesse o código do projeto</a>"+ '<img src="foto potifolio.png">';
