@@ -39,6 +39,16 @@ var ProjetoApp = (function () {
                  "</ul></div>" +
                  "<a href='hhttps://github.com/Julianavdsantos/Portfolio' target='_blank'>Acesse o código do projeto</a>"+ '<img src="foto potifolio.png">';
                 break;
+case "3":
+                textoProjeto = "<div class='detalherProjeto'><button class='closeButton'>X</h1></button>" +"<h2>Finanças_controle de despesas</h2>" +
+                " .Separa despesas por categorias"+ 
+                " .Recurso de serviços, injeção de dependência e utilização bibliotecas para apresentar gráficos dinâmicos. </p></div>" +
+                "<a href='https://jussarapretta.com/' target='_blank'>https://jussarapretta.com/</a>"+ '<img src="webSite.png">';
+
+
+
+
+
             case "5":
                 textoProjeto = "<div class='detalherProjeto'><button class='closeButton'>X</h1></button>" +"<h2>Web Sit</h2>" +
                 " Este projeto foi elaborado com o objetivo de promover o trabalho de uma cantora pioneira como mulher nas rodas de Samba de BH/Mg, Jussara Pretta,"+ 
