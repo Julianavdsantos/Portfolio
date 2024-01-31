@@ -29,6 +29,8 @@ var ProjetoApp = (function () {
                "</ul></div>" + "<a href='https://github.com/Julianavdsantos/ApiC-MVC2' target='_blank'>Acesse o código do projeto</a>" + '<img src="starWars2.png">';
                   
                 break;
+
+
             case "2":
                 textoProjeto = "<div class='detalherProjeto'><button class='closeButton'>X</h1></button>" +"<h2>Portifólio</h2>" +
                 "<p>Este projeto consiste em um portfólio que destaca alguns dos projetos que desenvolvi, " +
@@ -39,22 +41,30 @@ var ProjetoApp = (function () {
                  "</ul></div>" +
                  "<a href='hhttps://github.com/Julianavdsantos/Portfolio' target='_blank'>Acesse o código do projeto</a>"+ '<img src="foto potifolio.png">';
                 break;
-case "3":
-                textoProjeto = "<div class='detalherProjeto'><button class='closeButton'>X</h1></button>" +"<h2>Finanças_controle de despesas</h2>" +
-                " .Separa despesas por categorias"+ 
-                " .Recurso de serviços, injeção de dependência e utilização bibliotecas para apresentar gráficos dinâmicos. </p></div>" +
-                "<a href='https://jussarapretta.com/' target='_blank'>https://jussarapretta.com/</a>"+ '<img src="webSite.png">';
+
+            case "3":
+                textoProjeto = "<div class='detalherProjeto'><button class='closeButton'>X</h1></button>" +"<h2>Controle de financeiro</h2>" +
+                "<p>manipulação de dados em banco de dados, criação de APIs e design de interfaces para melhorar a gestão de despesas pessoais. " +
+                 "<ul>"  +
+                 "<li>Consumo de API</li>" +
+                 "<li>Injeção de dependência'</li>" +
+                 "<li>Tratamento de erros</li>" +
+                 "<li> Entity Framework-Integração com Banco de Dados </li>" +
+                 "</ul></div>" +
+                "<a href='https://github.com/Julianavdsantos/FinnancacsharpMVC' target='_blank'>Acesse o código do projeto/</a>"+ '<img src="finanças2.png">';
+                break;
 
 
-
-
-
+                
             case "5":
                 textoProjeto = "<div class='detalherProjeto'><button class='closeButton'>X</h1></button>" +"<h2>Web Sit</h2>" +
                 " Este projeto foi elaborado com o objetivo de promover o trabalho de uma cantora pioneira como mulher nas rodas de Samba de BH/Mg, Jussara Pretta,"+ 
                 " Destacando não apenas sua incrível trajetória musical, mas também as canções inesquecíveis que compõem o rico repertório dessa artista dedicada. </p></div>" +
                 "<a href='https://jussarapretta.com/' target='_blank'>https://jussarapretta.com/</a>"+ '<img src="webSite.png">';
                 break;
+
+
+
             case "4":
                 textoProjeto = "<div class='detalherProjeto'><button class='closeButton'>X</h1></button>" +"<h2>Registro Patrimônial-UFMG</h2>" +
                 " Sistema de registro patrimonial através de leitura de códigos de barras, permitindo " +
