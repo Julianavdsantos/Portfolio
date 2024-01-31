@@ -39,7 +39,7 @@ var ProjetoApp = (function () {
                  "</ul></div>" +
                  "<a href='hhttps://github.com/Julianavdsantos/Portfolio' target='_blank'>Acesse o código do projeto</a>"+ '<img src="foto potifolio.png">';
                 break;
-            case "3":
+            case "5":
                 textoProjeto = "<div class='detalherProjeto'><button class='closeButton'>X</h1></button>" +"<h2>Web Sit</h2>" +
                 " Este projeto foi elaborado com o objetivo de promover o trabalho de uma cantora pioneira como mulher nas rodas de Samba de BH/Mg, Jussara Pretta,"+ 
                 " Destacando não apenas sua incrível trajetória musical, mas também as canções inesquecíveis que compõem o rico repertório dessa artista dedicada. </p></div>" +
@@ -54,7 +54,7 @@ var ProjetoApp = (function () {
 
                 "<a href='https://github.com/Julianavdsantos/codeCaptura/' target='_blank'>Acesse o código do projeto</a>"+ '<img src="registrodePatrimonio.png">';
                 break;
-            case "5":
+            case "6":
                 textoProjeto = "<div class='detalherProjeto'><button class='closeButton'>X</h1></button>" +"<h2>Gerador de Números</h2>" +
                 "Este projeto é uma aplicação web simples e intuitiva que permite a geração de números aleatórios com base nos parâmetros fornecidos pelo usuário,"+ 
                 " oferecendo uma ferramenta eficaz para escolha de números em jogos </div> "+
