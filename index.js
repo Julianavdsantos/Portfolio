@@ -31,7 +31,17 @@ var ProjetoApp = (function () {
                 break;
 
 
-            case "2":
+                case "2":
+                textoProjeto = "<div class='detalherProjeto'><button class='closeButton'>x</h1></button>" +"<h2>Agenda de Contatos</h2>"  +
+                "<p> Este projeto utiliza tecnologias como Node.js, Express.js, MySQL e React.js para fornecer uma experiência completa de CRUD (Create, Read, Update, Delete) de contatos, com pesquisa e log de exclusão registrados em txt, " +
+               
+
+               "</ul></div>" + "<a href='https://github.com/Julianavdsantos/CRUDContatos' target='_blank'>Acesse o código do projeto</a>" + '<img src="https://raw.githubusercontent.com/Julianavdsantos/CRUDContatos/main/telefones.png">';
+                  
+                break;
+
+
+            case "3":
                 textoProjeto = "<div class='detalherProjeto'><button class='closeButton'>X</h1></button>" +"<h2>Portifólio</h2>" +
                 "<p>Este projeto consiste em um portfólio que destaca alguns dos projetos que desenvolvi, " +
                  "<ul>"  +
@@ -42,7 +52,7 @@ var ProjetoApp = (function () {
                  "<a href='hhttps://github.com/Julianavdsantos/Portfolio' target='_blank'>Acesse o código do projeto</a>"+ '<img src="foto potifolio.png">';
                 break;
 
-            case "3":
+            case "4":
                 textoProjeto = "<div class='detalherProjeto'><button class='closeButton'>X</h1></button>" +"<h2>Controle de financeiro</h2>" +
                 "<p>manipulação de dados em banco de dados, criação de APIs e design de interfaces para melhorar a gestão de despesas pessoais. " +
                  "<ul>"  +
@@ -65,7 +75,7 @@ var ProjetoApp = (function () {
 
 
 
-            case "4":
+            case "6":
                 textoProjeto = "<div class='detalherProjeto'><button class='closeButton'>X</h1></button>" +"<h2>Registro Patrimônial-UFMG</h2>" +
                 " Sistema de registro patrimonial através de leitura de códigos de barras, permitindo " +
                 " classificação por departamento e exportação de planilhas. Apesar da simplicidade, o " +
@@ -74,7 +84,7 @@ var ProjetoApp = (function () {
 
                 "<a href='https://github.com/Julianavdsantos/codeCaptura/' target='_blank'>Acesse o código do projeto</a>"+ '<img src="registrodePatrimonio.png">';
                 break;
-            case "6":
+            case "7":
                 textoProjeto = "<div class='detalherProjeto'><button class='closeButton'>X</h1></button>" +"<h2>Gerador de Números</h2>" +
                 "Este projeto é uma aplicação web simples e intuitiva que permite a geração de números aleatórios com base nos parâmetros fornecidos pelo usuário,"+ 
                 " oferecendo uma ferramenta eficaz para escolha de números em jogos </div> "+
